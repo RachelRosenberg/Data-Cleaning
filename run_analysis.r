@@ -4,7 +4,7 @@
 # Set working directory to the parent directory of "UCI HAR Dataset" before running the following code.
 
 
-# Read in features data and remove brackets from names:
+# Read in features data:
 features<-read.table("UCI HAR Dataset/features.txt", colClasses=c("NULL", "character"),header=FALSE)
 
 # Read in activity labels and name columns "activity" and "activityname":
